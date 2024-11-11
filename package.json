@@ -1,0 +1,46 @@
+{
+    "name": "eslint-plugin-peaks",
+    "version": "0.0.1",
+    "description": "custom eslint rules for Peaks",
+    "scripts": {
+      "test": "rive test",
+      "prepublishOnly": "npm run test"
+    },
+    "files": [
+      "docs/",
+      "src/"
+    ],
+    "keywords": [
+      "eslint",
+      "eslintplugin",
+      "eslint-plugin"
+    ],
+    "main": "src/index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/SquabbyZ/-peaks-eslint-plugin-peaks"
+    },
+    "bugs": {
+      "url": "https://github.com/SquabbyZ/-peaks-eslint-plugin-peaks/issues"
+    },
+    "homepage": "https://github.com/SquabbyZ/-peaks-eslint-plugin-peaksc",
+    "author": {
+      "name": "Mark SquabbyZ",
+      "email": "smallmark1912@outlook.com"
+  
+    },
+    "contributors": [
+      {
+        "name": "Zhu Haifeng",
+        "email": "601709253@qq.com"
+      }
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "fs-extra": "^9.0.1",
+      "require-all": "^3.0.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.7.0"
+    }
+  }
